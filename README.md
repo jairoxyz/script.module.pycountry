@@ -17,7 +17,7 @@ You can exclude the locales folder from your zip file and save some MBs if your 
 
 
 # 
-[Pycountry][pycountry-website] is a Python library to access ISO country, subdivision, language, currency and script definitions and their translations.
+#### [Pycountry][pycountry-website] is a Python library to access ISO country, subdivision, language, currency and script definitions and their translations.
 
 
 
