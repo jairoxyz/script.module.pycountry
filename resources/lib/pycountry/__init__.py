@@ -26,8 +26,8 @@ import xbmcaddon
 
 __version__ = xbmcaddon.Addon("script.module.pycountry").getAddonInfo('version')
 
-LOCALES_DIR = os.path.join(xbmcaddon.Addon("script.module.pycountry").getAddonInfo("path"), "resources\lib\pycountry", "locales")
-DATABASE_DIR = os.path.join(xbmcaddon.Addon("script.module.pycountry").getAddonInfo("path"), "resources\lib\pycountry", "databases")
+LOCALES_DIR = os.path.join(xbmcaddon.Addon("script.module.pycountry").getAddonInfo("path"), "resources", "lib", "pycountry", "locales")
+DATABASE_DIR = os.path.join(xbmcaddon.Addon("script.module.pycountry").getAddonInfo("path"), "resources", "lib", "pycountry", "databases")
 
 
 def remove_accents(input_str):
